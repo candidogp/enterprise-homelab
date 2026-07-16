@@ -19,6 +19,7 @@ fichas detalladas por equipo y registro de consumo eléctrico.
 
 ## Estado actual
 
-| Equipo       | Modelo                      | Rol             | Estado            |
-|--------------|-----------------------------|-----------------|-------------------|
-| `pve-node01` | Lenovo ThinkCentre M920q    | Host Proxmox    | Pendiente de recepción |
+| Equipo       | Modelo                      | Rol                | Estado            |
+|--------------|-----------------------------|--------------------|-------------------|
+| `pve-node01` | Lenovo ThinkCentre M920q    | Host Proxmox       | Pendiente de recepción |
+| `sw-01`      | Mikrotik CSS610-8G-2S+IN    | Switch gestionable | Recibido — pendiente de configuración |
