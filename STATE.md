@@ -41,7 +41,26 @@ Estado: host principal adquirido, pendiente de recepción.
 
 ## Red
 
-**Estado:** sin segmentación. Red plana del router del ISP.
+**Estado:** switch gestionable recibido (`sw-01`), pendiente de configurar
+VLANs 802.1Q. Hasta su configuración, la red sigue siendo plana bajo el
+router del ISP.
+
+### Switch gestionable — sw-01
+
+- Equipo: Mikrotik CSS610-8G-2S+IN
+- Puertos: 8× gigabit + 2× SFP+ 10G
+- Gestión: SwOS (web GUI)
+- Consumo: 11 W máximo
+- Número de serie: HM30BFKDS63
+- MAC: D0:EA:11:22:B2:E3
+- Estado: recibido — pendiente de configuración de VLANs
+- Documentación: `hardware/network/sw-01.md`
+- Decisión: `docs/architecture/decisions/0002-seleccion-switch-gestionable.md`
+
+### Próximas acciones de red
+
+- [x] Rellenar versión de firmware/SwOS en sw-01 (2.21)
+- [ ] Configurar VLANs 802.1Q en sw-01
 
 Plan de direccionamiento futuro: pendiente de definir en chat de Networking 
 (fase 1-2).
